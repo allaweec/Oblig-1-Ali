@@ -7,6 +7,15 @@ public class MyPoint {
         y = 0;
     }
 
+    public MyPoint(int x, int y) {
+        this.x = x;
+        this.y = y;
+    }
+
+    public int distance(MyPoint point) {
+        return 0;
+    }
+
 
 
     public int getX() {
