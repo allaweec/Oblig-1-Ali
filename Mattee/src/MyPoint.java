@@ -2,7 +2,10 @@ public class MyPoint {
 
     private int x, y;
 
-
+    public MyPoint() {
+        x = 0;
+        y = 0;
+    }
 
 
 

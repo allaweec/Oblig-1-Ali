@@ -3,10 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="50d53b41-8a38-4a4a-8c22-58f1eb180ba1" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Mattee/.idea/vcs.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../Mattee/src/Main.java" afterPath="$PROJECT_DIR$/../Mattee/src/MyPoint.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IGR1608" afterPath="$PROJECT_DIR$/../IGR1608" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JustAnotherGame" afterPath="$PROJECT_DIR$/../JustAnotherGame" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Mattee/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Mattee/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Mattee/src/MyPoint.java" afterPath="$PROJECT_DIR$/../Mattee/src/MyPoint.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
