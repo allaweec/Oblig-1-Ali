@@ -1,6 +1,8 @@
 package Oppg2;
 
 import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.GregorianCalendar;
 
 public class Eiendom {
 
@@ -21,11 +23,14 @@ public class Eiendom {
     }
 
     protected void nyttBud(String navn, float belop, String tel, int frist) {
-        budOversikt.add(new Bud(navn,tel,belop,frist));
+        GregorianCalendar fristToCalendar = new GregorianCalendar();
+        fristToCalendar.add(Calendar.HOUR_OF_DAY, frist);
+        budOversikt.add(new Bud(navn,tel,belop,fristToCalendar));
+        System.out.println("Bud gitt for " + this);
     }
 
     public String getSisteBud() {
-        return "";
+        return "Siste Bud:\n" + budOversikt.get(budOversikt.size() - 1);
     }
 
     public void skrivAlleBud() {

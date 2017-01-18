@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="366d0c75-05d1-471e-96e9-87a55805511b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../IGR1608" afterPath="$PROJECT_DIR$/../IGR1608" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JustAnotherGame" afterPath="$PROJECT_DIR$/../JustAnotherGame" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MyPoint.java" afterPath="$PROJECT_DIR$/src/MyPoint.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Oblig 1/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Oblig 1/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -355,7 +353,14 @@
       <option name="project" value="LOCAL" />
       <updated>1484725372895</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Did some stuff">
+      <created>1484725735091</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1484725735091</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -399,7 +404,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added x and y" />
     <MESSAGE value="Added constructor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added constructor" />
+    <MESSAGE value="Did some stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="Did some stuff" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

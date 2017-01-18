@@ -8,11 +8,10 @@ public class Bud {
     private float belop;
     private String navn, telefon;
 
-    public Bud(String navn, String telefon, float belop, int frist) {
+    public Bud(String navn, String telefon, float belop, GregorianCalendar frist) {
         this.navn = navn;
         this.telefon = telefon;
         this.belop = belop;
-
 
         budGitt = new GregorianCalendar();
     }
@@ -36,4 +35,12 @@ public class Bud {
     public String getTelefon() {
         return telefon;
     }
+
+    public String toString() {
+        return "Navn: " + navn +
+                "\nTel: " + telefon +
+                "\nBeløp: " + belop +
+                "\nBud Dato: " + budGitt;
+    }
+
 }
