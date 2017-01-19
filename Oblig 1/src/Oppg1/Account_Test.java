@@ -11,6 +11,7 @@ public class Account_Test {
         testAccount.withdraw(5);
         testAccount.withdraw(4);
         testAccount.withdraw(2);
+
         System.out.println("Name: " + testAccount.getName() +
                 "\nIntrest rate: " + testAccount.getAnnualInterestRate() +
                 "\nBalance: " + testAccount.getBalance() +

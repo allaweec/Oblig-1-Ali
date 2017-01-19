@@ -16,8 +16,8 @@ public class Enebolig extends Eiendom {
         return "";
     }
 
-    public void skrivAlleBud() {
-    }
+//    public void skrivAlleBud() {
+//    }
 
     public int getType() {
         return type;

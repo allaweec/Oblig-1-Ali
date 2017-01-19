@@ -14,6 +14,7 @@ public class Bud {
         this.belop = belop;
 
         budGitt = new GregorianCalendar();
+        budFrist = new GregorianCalendar();
     }
 
     public GregorianCalendar getBudGitt() {

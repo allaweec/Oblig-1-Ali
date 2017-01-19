@@ -20,10 +20,10 @@ public class Transactions {
 
     public String toString() {
         return "Type: " + type +
-                "\n Amount: " + amount +
-                "\n Balance: " + balance +
-                "\n Description: " + description +
-                "\n Transaction Date: " + date + "\n\n";
+                "\nAmount: " + amount +
+                "\nBalance: " + balance +
+                "\nDescription: " + description +
+                "\nTransaction Date: " + date + "\n\n";
     }
 
 }

@@ -20,6 +20,7 @@ public class Eiendom {
         this.bnr = bnr;
 
         budOversikt = new ArrayList<Bud>();
+
     }
 
     protected void nyttBud(String navn, float belop, String tel, int frist) {
@@ -34,7 +35,14 @@ public class Eiendom {
     }
 
     public void skrivAlleBud() {
-
+        System.out.println("Bud gitt\t\t\t\t\t\tBud Frist\t\t\t\t\t\tNavn\t\t\tTlf\t\t\tBeløp");
+        for (int i = 0; i < budOversikt.size(); i++) {
+            System.out.println(
+                    budOversikt.get(i).getBudGitt().getTime() + "\t" +
+                    budOversikt.get(i).getBudFrist().getTime() + "\t" +
+                    budOversikt.get(i).getNavn() + "\t" + budOversikt.get(i).getTelefon() + "\t" + budOversikt.get(i).getBelop()
+            );
+        }
     }
 
     public String getAdresse() {
