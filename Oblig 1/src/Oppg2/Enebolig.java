@@ -16,8 +16,16 @@ public class Enebolig extends Eiendom {
         return "";
     }
 
-//    public void skrivAlleBud() {
-//    }
+    public void skrivAlleBud() {
+        System.out.println("Bud gitt\t\t\t\t\t\tBud Frist\t\t\t\t\t\tNavn\t\t\tTlf\t\t\tBeløp");
+        for (int i = 0; i < budOversikt.size(); i++) {
+            System.out.println(
+                    budOversikt.get(i).getBudGitt().getTime() + "\t" +
+                            budOversikt.get(i).getBudFrist().getTime() + "\t" +
+                            budOversikt.get(i).getNavn() + "\t" + budOversikt.get(i).getTelefon() + "\t" + budOversikt.get(i).getBelop()
+            );
+        }
+    }
 
     public int getType() {
         return type;

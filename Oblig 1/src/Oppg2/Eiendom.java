@@ -9,7 +9,7 @@ public class Eiendom {
     private String adresse, eiersNavn;
     private double takst;
     private int antKvm, gnr, bnr;
-    private ArrayList<Bud> budOversikt;
+    protected ArrayList<Bud> budOversikt;
 
     public Eiendom(String adresse, String eiersNavn, double takst, int antKvm, int gnr, int bnr) {
         this.adresse = adresse;

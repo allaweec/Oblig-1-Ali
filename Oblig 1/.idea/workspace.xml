@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="50d53b41-8a38-4a4a-8c22-58f1eb180ba1" name="Default" comment="Oblig oppg1 complete. &#10;Still working on oppg2.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Oppg2/TestEiendom.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Oblig 1/Oppg1/Transactions.class" afterPath="$PROJECT_DIR$/out/production/Oblig 1/Oppg1/Transactions.class" />
+    <list default="true" id="50d53b41-8a38-4a4a-8c22-58f1eb180ba1" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Oblig 1/Oppg1/Account_Test.class" afterPath="$PROJECT_DIR$/out/production/Oblig 1/Oppg1/Account_Test.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Oppg1/Account_Test.java" afterPath="$PROJECT_DIR$/src/Oppg1/Account_Test.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Oppg1/Transactions.java" afterPath="$PROJECT_DIR$/src/Oppg1/Transactions.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Oppg2/Bud.java" afterPath="$PROJECT_DIR$/src/Oppg2/Bud.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Oppg2/Eiendom.java" afterPath="$PROJECT_DIR$/src/Oppg2/Eiendom.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Oppg2/Enebolig.java" afterPath="$PROJECT_DIR$/src/Oppg2/Enebolig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TEST/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../TEST/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,26 +21,26 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.5">
+    <splitter split-orientation="vertical" split-proportion="0.52108717">
       <split-first>
-        <splitter split-orientation="horizontal" split-proportion="0.4584063">
+        <splitter split-orientation="horizontal" split-proportion="0.4470377">
           <split-first>
             <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-              <file leaf-file-name="Bud.java" pinned="false" current-in-tab="true">
+              <file leaf-file-name="Bud.java" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/src/Oppg2/Bud.java">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="20">
-                      <caret line="16" column="43" lean-forward="false" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+                    <state relative-caret-position="289">
+                      <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
                       <folding />
                     </state>
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="Eiendom.java" pinned="false" current-in-tab="false">
+              <file leaf-file-name="Eiendom.java" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/src/Oppg2/Eiendom.java">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="323">
-                      <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+                    <state relative-caret-position="167">
+                      <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
                       <folding>
                         <element signature="imports" expanded="true" />
                       </folding>
@@ -55,11 +51,9 @@
               <file leaf-file-name="Enebolig.java" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/src/Oppg2/Enebolig.java">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="204">
-                      <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-                      <folding>
-                        <marker date="1484837485021" expanded="true" signature="510:519" ph="{...}" />
-                      </folding>
+                    <state relative-caret-position="153">
+                      <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+                      <folding />
                     </state>
                   </provider>
                 </entry>
@@ -81,8 +75,8 @@
               <file leaf-file-name="Enebolig.java" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/src/Oppg2/Enebolig.java">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="272">
-                      <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+                    <state relative-caret-position="425">
+                      <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
                       <folding />
                     </state>
                   </provider>
@@ -93,18 +87,18 @@
         </splitter>
       </split-first>
       <split-second>
-        <splitter split-orientation="horizontal" split-proportion="0.45928195">
+        <splitter split-orientation="horizontal" split-proportion="0.44614002">
           <split-first>
             <leaf>
               <file leaf-file-name="Eiendom.java" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/src/Oppg2/Eiendom.java">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="176">
-                      <caret line="44" column="9" lean-forward="true" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+                    <state relative-caret-position="278">
+                      <caret line="41" column="44" lean-forward="false" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
                       <folding>
                         <element signature="imports" expanded="true" />
-                        <element signature="e#960#961#0" expanded="true" />
-                        <element signature="e#1039#1040#0" expanded="true" />
+                        <element signature="e#962#963#0" expanded="true" />
+                        <element signature="e#1041#1042#0" expanded="true" />
                       </folding>
                     </state>
                   </provider>
@@ -165,8 +159,8 @@
         <option value="$PROJECT_DIR$/src/Oppg1/Transactions.java" />
         <option value="$PROJECT_DIR$/src/Oppg1/Account_Test.java" />
         <option value="$PROJECT_DIR$/src/Oppg2/TestEiendom.java" />
-        <option value="$PROJECT_DIR$/src/Oppg2/Enebolig.java" />
         <option value="$PROJECT_DIR$/src/Oppg2/Bud.java" />
+        <option value="$PROJECT_DIR$/src/Oppg2/Enebolig.java" />
         <option value="$PROJECT_DIR$/src/Oppg2/Eiendom.java" />
       </list>
     </option>
@@ -251,7 +245,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JustAnotherGame" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -521,11 +515,19 @@
       <option name="presentableId" value="Default" />
       <updated>1484660559086</updated>
     </task>
+    <task id="LOCAL-00001" summary="Jobber med fortsatt med oppg 2. Er nesten helt ferdig men har noen problemer med Gregorian Calendar og budFrist. Jobber fortsatt med å fikse det">
+      <created>1484838552582</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1484838552582</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -542,7 +544,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1078125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1296875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -563,7 +565,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Oblig oppg1 complete. &#10;Still working on oppg2." />
-    <option name="LAST_COMMIT_MESSAGE" value="Oblig oppg1 complete. &#10;Still working on oppg2." />
+    <MESSAGE value="Jobber med fortsatt med oppg 2. Er nesten helt ferdig men har noen problemer med Gregorian Calendar og budFrist. Jobber fortsatt med å fikse det" />
+    <option name="LAST_COMMIT_MESSAGE" value="Jobber med fortsatt med oppg 2. Er nesten helt ferdig men har noen problemer med Gregorian Calendar og budFrist. Jobber fortsatt med å fikse det" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -601,8 +604,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#960#961#0" expanded="true" />
-            <element signature="e#1039#1040#0" expanded="true" />
+            <element signature="e#962#963#0" expanded="true" />
+            <element signature="e#1041#1042#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -619,9 +622,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-          <folding>
-            <marker date="1484837485021" expanded="true" signature="510:519" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -666,8 +667,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#960#961#0" expanded="true" />
-            <element signature="e#1039#1040#0" expanded="true" />
+            <element signature="e#962#963#0" expanded="true" />
+            <element signature="e#1041#1042#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -684,9 +685,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-          <folding>
-            <marker date="1484837485021" expanded="true" signature="510:519" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -731,8 +730,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#960#961#0" expanded="true" />
-            <element signature="e#1039#1040#0" expanded="true" />
+            <element signature="e#962#963#0" expanded="true" />
+            <element signature="e#1041#1042#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -749,9 +748,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-          <folding>
-            <marker date="1484837485021" expanded="true" signature="510:519" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -796,8 +793,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#960#961#0" expanded="true" />
-            <element signature="e#1039#1040#0" expanded="true" />
+            <element signature="e#962#963#0" expanded="true" />
+            <element signature="e#1041#1042#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -814,9 +811,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-          <folding>
-            <marker date="1484837485021" expanded="true" signature="510:519" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -861,8 +856,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#960#961#0" expanded="true" />
-            <element signature="e#1039#1040#0" expanded="true" />
+            <element signature="e#962#963#0" expanded="true" />
+            <element signature="e#1041#1042#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -879,9 +874,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-          <folding>
-            <marker date="1484837485021" expanded="true" signature="510:519" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -926,8 +919,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#960#961#0" expanded="true" />
-            <element signature="e#1039#1040#0" expanded="true" />
+            <element signature="e#962#963#0" expanded="true" />
+            <element signature="e#1041#1042#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -944,9 +937,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-          <folding>
-            <marker date="1484837485021" expanded="true" signature="510:519" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1002,24 +993,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Oppg2/Enebolig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <marker date="1484837485021" expanded="true" signature="510:519" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Oppg2/Bud.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="16" column="43" lean-forward="false" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Oppg2/TestEiendom.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1028,14 +1001,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Oppg2/Bud.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Oppg2/Enebolig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Oppg2/Eiendom.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="44" column="9" lean-forward="true" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+        <state relative-caret-position="278">
+          <caret line="41" column="44" lean-forward="false" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#960#961#0" expanded="true" />
-            <element signature="e#1039#1040#0" expanded="true" />
+            <element signature="e#962#963#0" expanded="true" />
+            <element signature="e#1041#1042#0" expanded="true" />
           </folding>
         </state>
       </provider>
