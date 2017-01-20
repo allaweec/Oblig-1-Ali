@@ -36,7 +36,7 @@ public class Eiendom {
     public void skrivAlleBud() {
         System.out.println(
                 "Bud gitt for eiendommen " + getAdresse() + ", takst = " + getTakst() + ", gnr = " + getGnr()
-                        + "bnr = " + getBnr() + ":"
+                        + ", bnr = " + getBnr() + ":"
         );
         System.out.println("Bud gitt\t\t\t\t\t\tBud Frist\t\t\t\t\t\tNavn\t\t\tTlf\t\t\tBeløp");
 

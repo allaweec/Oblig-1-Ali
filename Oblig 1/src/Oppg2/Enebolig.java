@@ -16,7 +16,7 @@ public class Enebolig extends Eiendom {
     public void skrivAlleBud() {
         System.out.println(
                 "Bud gitt for ENEBOLIG " + getAdresse() + ", takst = " + getTakst() + ", gnr = " + getGnr()
-                + "bnr = " + getBnr() + ", type = " + getTypeAsString() + ":"
+                + ", bnr = " + getBnr() + ", type = " + getTypeAsString() + ":"
         );
 
         System.out.println("Bud gitt\t\t\t\t\t\tBud Frist\t\t\t\t\t\tNavn\t\t\tTlf\t\t\tBeløp");
@@ -40,5 +40,11 @@ public class Enebolig extends Eiendom {
             return "Tomanns";
         else
             return "Feil ved systemet, vennligst kontakt " + getEiersNavn();
+    }
+
+    @Override
+    public String toString() {
+        return "ENEBOLIG " + getAdresse() + ", takst = " + getTakst() + ", gnr = " + getGnr()
+                + ", bnr = " + getBnr() + ", type = " + getTypeAsString();
     }
 }

@@ -15,7 +15,7 @@ public class Leilighet extends Eiendom {
     @Override
     public void skrivAlleBud() {
         System.out.println("Bud gitt for LEILIGHET " + getAdresse() + ", husleie = " + getHusleie() +
-                ", felles gjeld = " + getFellesGjeld() + ", gnr = " + getGnr() + "bnr = " + getBnr() +
+                ", felles gjeld = " + getFellesGjeld() + ", gnr = " + getGnr() + ", bnr = " + getBnr() +
                 ", etg = " + getEtg() + ":"
         );
 
@@ -39,5 +39,12 @@ public class Leilighet extends Eiendom {
 
     public int getEtg() {
         return etg;
+    }
+
+    @Override
+    public String toString() {
+        return "LEILIGHET " + getAdresse() + ", husleie = " + getHusleie() +
+                ", felles gjeld = " + getFellesGjeld() + ", gnr = " + getGnr() + ", bnr = " + getBnr() +
+                ", etg = " + getEtg();
     }
 }
