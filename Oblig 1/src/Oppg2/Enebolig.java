@@ -12,22 +12,33 @@ public class Enebolig extends Eiendom {
         this.type = type;
     }
 
-    protected String getTypeAsString() {
-        return "";
-    }
-
+    @Override
     public void skrivAlleBud() {
+        System.out.println(
+                "Bud gitt for ENEBOLIG " + getAdresse() + ", takst = " + getTakst() + ", gnr = " + getGnr()
+                + "bnr = " + getBnr() + ", type = " + getTypeAsString() + ":"
+        );
+
         System.out.println("Bud gitt\t\t\t\t\t\tBud Frist\t\t\t\t\t\tNavn\t\t\tTlf\t\t\tBeløp");
         for (int i = 0; i < budOversikt.size(); i++) {
             System.out.println(
                     budOversikt.get(i).getBudGitt().getTime() + "\t" +
-                            budOversikt.get(i).getBudFrist().getTime() + "\t" +
-                            budOversikt.get(i).getNavn() + "\t" + budOversikt.get(i).getTelefon() + "\t" + budOversikt.get(i).getBelop()
+                    budOversikt.get(i).getBudFrist().getTime() + "\t" +
+                    budOversikt.get(i).getNavn() + "\t" +
+                    budOversikt.get(i).getTelefon() + "\t" +
+                    budOversikt.get(i).getBelop()
             );
         }
     }
 
-    public int getType() {
-        return type;
+    protected String getTypeAsString() {
+        if (type == 1)
+            return "Frittstående";
+        else if (type == 2)
+            return "Rekke";
+        else if (type == 3)
+            return "Tomanns";
+        else
+            return "Feil ved systemet, vennligst kontakt " + getEiersNavn();
     }
 }
