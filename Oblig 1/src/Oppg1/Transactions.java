@@ -23,7 +23,7 @@ public class Transactions {
                 "\nAmount: " + amount +
                 "\nBalance: " + balance +
                 "\nDescription: " + description +
-                "\nTransaction Date: " + date + "\n\n";
+                "\nTransaction Date: " + date + "\n";
     }
 
 }

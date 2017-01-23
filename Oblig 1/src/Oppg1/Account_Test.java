@@ -1,5 +1,7 @@
 package Oppg1;
 
+import java.util.ArrayList;
+
 public class Account_Test {
 
     public static void main(String[] args) {
@@ -15,8 +17,15 @@ public class Account_Test {
         System.out.println("Name: " + testAccount.getName() +
                 "\nIntrest rate: " + testAccount.getAnnualInterestRate() +
                 "\nBalance: " + testAccount.getBalance() +
-                "\n\nTransactions:\n" + testAccount.getTransactions()
+                "\n\nTransactions:\n"
         );
+        printTransactions(testAccount.getTransactions());
+    }
+
+    private static void printTransactions(ArrayList<Transactions> transactions) {
+        for (int i = 0; i < transactions.size(); i++) {
+            System.out.println(transactions.get(i));
+        }
     }
 
 }
