@@ -1,4 +1,4 @@
-package Oppg2;
+package oppg2;
 
 public class DetachedHouse extends Property {
 

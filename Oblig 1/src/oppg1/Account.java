@@ -1,4 +1,4 @@
-package Oppg1;
+package oppg1;
 
 import java.util.ArrayList;
 import java.util.Date;
