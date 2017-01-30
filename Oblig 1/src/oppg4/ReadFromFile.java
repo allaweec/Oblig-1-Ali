@@ -9,21 +9,31 @@ public class ReadFromFile {
 
     public static void main(String[] args) {
 
-        Scanner fileReader = null;
-        try {
-            fileReader = new Scanner(new File("src\\oppg4\\SomeFile"));
-        } catch (FileNotFoundException e) {
-            System.out.println("File not found");
-        }
-
+        Scanner fileReader = loadFile("src\\oppg4\\SomeFile");
         ArrayList<String> fileToString = new ArrayList<>();
         while (fileReader.hasNext()) {
             fileToString.add(fileReader.next());
         }
 
+        fileReader = loadFile("src\\oppg4\\SomeFile");;
+        ArrayList<String> linesCounter = new ArrayList<>();
+        while (fileReader.hasNextLine()) {
+            linesCounter.add(fileReader.nextLine());
+        }
+
         System.out.println("Characters: " + countCharactersInArrayList(fileToString));
         System.out.println("Words: " + fileToString.size());
+        System.out.println("Lines: " + linesCounter.size());
 
+    }
+
+    private static Scanner loadFile(String path) {
+        try {
+            return new Scanner(new File(path));
+        } catch (FileNotFoundException e) {
+            System.out.println("File not found");
+        }
+        return null;
     }
 
     private static int getNumberOfWordsInString (String s) {
@@ -45,5 +55,4 @@ public class ReadFromFile {
         }
         return numberOfWords;
     }
-
 }

@@ -42,7 +42,7 @@ public class Account {
     }
 
     public void setAnnualInterestRate(double annualInterestRate) {
-        this.annualInterestRate = annualInterestRate / 100;
+        this.annualInterestRate = annualInterestRate;
     }
 
     public int getId() {
@@ -55,18 +55,6 @@ public class Account {
 
     public double getAnnualInterestRate() {
         return annualInterestRate;
-    }
-
-    public Date getDate() {
-        return dateCreated;
-    }
-
-    public double getMonthlyIntrestRate() {
-        return annualInterestRate / 12;
-    }
-
-    public double getMonthlyIntrest() {
-        return balance * (annualInterestRate / 12);
     }
 
     public String getName() {

@@ -22,7 +22,5 @@ public class OutOfBounds {
                 System.out.println("Out of Bounds");
             }
         }
-
     }
-
 }
